@@ -1,6 +1,6 @@
 # E-Shop Brasil – Aplicação NoSQL com Streamlit e MongoDB
 
-Este projeto foi desenvolvido como parte da disciplina **Banco de Dados Avançado e Big Data**, com o objetivo de integrar tecnologias modernas para manipulação de dados em ambientes escaláveis. A solução utiliza **MongoDB** como banco NoSQL, **Streamlit** para interface interativa e **Docker** para conteinerização.
+Este projeto foi desenvolvido como parte da disciplina Banco de Dados Avançado e Big Data, com o objetivo de integrar tecnologias modernas para manipulação de dados em ambientes escaláveis. A solução utiliza MongoDB como banco NoSQL, Streamlit para interface interativa e Docker para conteinerização.
 
  Objetivos do Projeto
 
@@ -20,12 +20,12 @@ Este projeto foi desenvolvido como parte da disciplina **Banco de Dados Avançad
 # Estrutura de Diretórios
 
 .
-├── app.py # Aplicação web com Streamlit
-├── gerar_dados.py # Script para geração de dados
-├── Dockerfile # Define imagem do app
-├── docker-compose.yml # Orquestração dos serviços
-├── requirements.txt # Dependências Python
-└── README.md
+- app.py # Aplicação web com Streamlit
+-  gerar_dados.py # Script para geração de dados
+-  Dockerfile # Define imagem do app
+-  Docker-compose.yml # Orquestração dos serviços
+-  requirements.txt # Dependências Python
+-  README.md
 
 
 # Como Executar
@@ -33,7 +33,7 @@ Este projeto foi desenvolvido como parte da disciplina **Banco de Dados Avançad
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/eshop-nosql.git
+git clone https://github.com/MatheusYN/eshop_nosql.git
 cd eshop_nosql
 
 # Inicia com o Docker
